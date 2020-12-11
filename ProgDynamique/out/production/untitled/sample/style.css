@@ -1,0 +1,71 @@
+.button
+{
+
+    -fx-background-color:white;
+    -fx-font-size:15;
+    -fx-background-radius: 5em;
+
+    -fx-text-fill:#21232f;
+    -fx-border-color:#21232f;
+    -fx-border-radius:5em;
+
+
+}
+
+.button:hover{
+
+    -fx-background-color:#31cae4;
+    -fx-font-size:15;
+    -fx-border-radius:5em;
+    -fx-background-radius: 5em;
+    -fx-text-fill:white;
+    -fx-cursor: hand;
+}
+
+.cancelbtn:hover{
+
+    -fx-font-weight:bold;
+    -fx-background-color:white;
+    -fx-font-size:15;
+    -fx-background-radius:20;
+    -fx-text-fill:#D32F2F;
+    -fx-border-color:#D32F2F;
+    -fx-border-radius:20;
+}
+
+
+#btnimg:hover{
+
+    -fx-rotate:15;
+}
+.imgicon:hover{
+
+
+    -fx-rotate:25;
+}
+#stkpane{
+
+    -fx-border-color:#0288D1;
+    -fx-border-radius:20;
+    -fx-border-width:3;
+
+}
+
+.label{
+
+    -fx-font-size:15;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.res{
+
+    -fx-border-color: #ff8653;
+    -fx-border-width: 8;
+    -fx-padding: 15;
+}
